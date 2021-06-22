@@ -102,6 +102,8 @@ function gameStart(){
 		$("div.start-btn").addClass("hidden");
 		$("div.instructions").addClass("hidden");
 		$("div.game-btn").removeClass("hidden");
+		$("div.quit-btn").addClass("hidden");
+		
 	}
 
 }
@@ -113,7 +115,7 @@ function gameQuit(){
 	$("h2").removeClass("hidden");
 }
 
-$(".btn").click( function(){
+$(".btn1").click( function(){
 
 	var userChosenColour = $(this).attr("id");
 
