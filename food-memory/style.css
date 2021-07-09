@@ -1,6 +1,74 @@
+/* .navbar{
+	padding:0 0 4.5rem;
+} */
+.container-padding {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding-left: 1.5%;
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.flex-div {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-end;
+}
+
+h1,
+h3 {
+    font-family: "Ubuntu";
+    font-weight: bold;
+    margin-right: 1rem;
+    margin-bottom: 0px;
+    /* text-align: right;
+    float: right; */
+}
+h1.score-cnt {
+    font-size: xxx-large;
+}
+
+h3.score-title {
+    font-size: xx-large;
+}
+
 .grid {
+    
     display: flex;
     flex-wrap: wrap;
-    height: 300px;
-    width: 400px;
+    height: 612px;
+    width: 840px;
 }
+
+.card-img {
+    width: 200px;
+    height: auto;
+    border: 5px solid black;
+    margin: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+        height: 612px;
+        width: 486px;
+    }
+    .card-img {
+        width: 150px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .grid {
+        height: 332px;
+        width: 276px;
+    }
+    .card-img {
+        width: 80px;
+    }
+  }
+
+
+
